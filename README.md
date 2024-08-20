@@ -28,4 +28,11 @@ This script automates the initial setup and security hardening of a Chromebook, 
    sudo ./chromebook_setup.sh
 4. **Customize as Needed:**
    - Before running the script, you can customize the Wi-Fi network details, backup destination, or any other settings directly in the script.
-  
+
+## Requirements
+ - Crostini Enabled (Optional): The script installs Linux packages only if Crostini is enabled.
+ - Google Cloud SDK: Required for the data backup feature using gsutil.
+ - Administrator Privileges: The script must be run with sudo to apply system-wide changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
